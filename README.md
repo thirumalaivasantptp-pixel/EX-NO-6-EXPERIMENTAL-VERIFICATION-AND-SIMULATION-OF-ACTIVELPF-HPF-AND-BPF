@@ -1,25 +1,24 @@
 # EX-NO-6-EXPERIMENTAL-VERIFICATION-AND-SIMULATION-OF-ACTIVELPF-HPF-AND-BPF
-## 6 DESIGN OF ACTIVE LOW PASS, HIGH PASS AND BAND PASS FILTERS USING OP-AMP
-            
-**DATE:**  
+## 6 DESIGN OF ACTIVE LOW PASS, HIGH PASS AND BAND PASS FILTERS USING OP-AMP  
          
 ---
 
 ## AIM
-            
-**DATE:**  
+ DESIGN OF ACTIVE LOW PASS, HIGH PASS AND BAND PASS FILTERS USING OP-AMP  
          
 ---
 
 ## AIM and obtain the frequency response of
 
 i)	First order Low Pass Filter (LPF)
+
 ii)	First order High Pass Filter (HPF)
+
 iii)	Band pass filter
 
 ---
 
-** 6 A :- LOW PASS FILTER**
+## 6 A :- LOW PASS FILTER
 
 
 
@@ -78,18 +77,18 @@ PROCEDURE - (LPF):
 
 | S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+| 1    |     100           |   1.65                 |   4.349                          |
+| 2    |    200            |  1.64                  |    4.296                         |
+| 3    |    300            |  1.64                  |     4.296                        |
+| 4    | 400              |   1.64                 |    4.296                         |
+| 5    | 500              |   1.62                 |  4.190                           |
+| 6    | 750              |   1.60                 |   4.082                          |
+| 7    |   1000            |   1.54                 |   3.750                          |
+| 8    |  1500             |  1.40                  |   2.992                          |
+| 9    |  2000             |  1.08                  |   0.668                          |
+| 10   |  2500              | 0.8                   |   -1.938                          |
+| 11   |  2800              |   0.6                 |      -4.437                       |
+| 12   |  3000              |  0.4                  | -7.535                            |
 		
 
 ---
@@ -103,7 +102,7 @@ PROCEDURE - (LPF):
 ---
 
 ## THEORY
-HIGH PASS FILTER
+## HIGH PASS FILTER
 A HPF allows frequencies from 0 to higher cut of frequency, fH. At fH the gain is 0.707 Amax, and after fH gain decreases at a constant rate with an increase in frequency. The gain decreases 20dB each time the frequency is increased by 10. Hence the rate at which the gain rolls off after fH is 20dB/decade or 6 dB/ octave, where octave signifies a two fold increase in frequency. The frequency f=fH is called the cut off frequency because the gain of the filter at this frequency is down by 3 dB from 0 Hz. Other equivalent terms for cut-off frequency are -3dB frequency, break frequency, or corner frequency.
 
 
@@ -162,18 +161,17 @@ PROCEDURE - ( HPF):
 		
 | S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+| 1    |   100             |   500           |     -6.020                        |
+| 2    |   200             |      550              |-5.192                             |
+| 3    | 300               |      640              | -3.876                            |
+| 4    | 400               |      660              |  -3.609                           |
+| 5    | 500               |     700               | -3.098                            |
+| 6    | 750               |     740              | -2.615                            |
+| 7    |1000                |      1150             | 1.214                            |
+| 8    | 1500               |     1240               | 1.868                            |
+| 9    |  2000              |   1350                 |  2.607                           |
+| 10   | 2500               |  1450                  |  3.227                           |
+| 11   | 3000               |  1540                  | 3.750                            |
 
 ---
 
@@ -186,7 +184,7 @@ PROCEDURE - ( HPF):
 ---
 
 ## THEORY
- ##Band Pass Filter
+ ## Band Pass Filter
 A BPF allows frequencies in between lower cut of frequency and higher cut of frequency, fH-fL. A band-pass (BP) filter passes frequencies in a band fL_fH and attenuates below fL and above fH.. The gain decreases 20dB each time the frequency is increased by 10. Hence the rate at which the gain rolls off after fH is 20dB/decade or 6 dB/ octave, where octave signifies a two fold increase in frequency. The frequency f=fH is called the cut off frequency because the gain of the filter at this frequency is down by 3 dB from 0 Hz. Other equivalent terms for cut-off frequency are -3dB frequency, break frequency, or corner frequency.
 
 
@@ -247,18 +245,18 @@ PROCEDURE:BAND PASS FILTER
 		
 | S.No | Frequency (Hz) | Output Voltage (V) | Gain = 20 log (Vo/Vi) (dB) |
 |------|----------------|--------------------|-----------------------------|
-| 1    |                |                    |                             |
-| 2    |                |                    |                             |
-| 3    |                |                    |                             |
-| 4    |                |                    |                             |
-| 5    |                |                    |                             |
-| 6    |                |                    |                             |
-| 7    |                |                    |                             |
-| 8    |                |                    |                             |
-| 9    |                |                    |                             |
-| 10   |                |                    |                             |
-| 11   |                |                    |                             |
-| 12   |                |                    |                             |
+| 1    | 50               | 0.5                   |     -6.021                        |
+| 2    | 100               | 1                   |      0                       |
+| 3    |200                | 1.34                   |    2.542                         |
+| 4    |300                | 2.94                   |   9.367                          |
+| 5    |400               |  3.12                  |    9.883                         |
+| 6    |500                | 3.44                   |   10.731                          |
+| 7    |750                |  3.44                  |  10.731                           |
+| 8    |1000                | 3.44                   |   10.731                          |
+| 9    |1300                |  3.20                  |  10.160                           |
+| 10   |2000                |  2.84                  | 9.066                            |
+| 11   |3000                | 2.28                   | 7.158                            |
+| 12   |5000                |   1.56                 |  3.86                           |
 
 ---
 
