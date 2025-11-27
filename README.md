@@ -94,6 +94,10 @@ PROCEDURE - (LPF):
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/683a695c-a08d-49eb-9fcb-08b0da5a2893" />
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/5cd650f9-2e8a-414f-af66-52ff599f0876" />
+
+
 
 ---
 
@@ -176,6 +180,9 @@ PROCEDURE - ( HPF):
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/f1321762-f8a8-454d-a4f9-113c4df6b863" />
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/d5d1ecd9-451d-4eb4-b170-030c623b1fdf" />
+
 
 ---
 
@@ -261,11 +268,14 @@ PROCEDURE:BAND PASS FILTER
 ---
 
 ## OUT PUT WAVEFORM AND DISCUSSION 
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/3b66b6ae-ab99-493b-94b0-1bf97475afc1" />
 
----
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/1d54c33a-1bc3-4f59-8c80-dd5581af42be" />
+
+
 ## RESULT:
-	Thus an Active Low pass, High pass and Band Pass Filters are designed and
-tested using op-amp IC 741.
----
+
+Thus an Active Low pass, High pass and Band Pass Filters are designed and tested using op-amp IC 741.
+
 
    
